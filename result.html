@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Exam Result</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="result-page">
+<div class="result-container">
+<h2>Exam Result</h2>
+<p id="resultText">Calculating Result....</p>
+<a href="index.html">Take Exam again</a>
+</div>
+<script>
+const params=new URLSearchParams(window.location.search);
+const score=Params.get("score");
+document.getElementById("resultText").innerText='Your score is ${scope}/2';
+</script>
+</body>
+</html>
